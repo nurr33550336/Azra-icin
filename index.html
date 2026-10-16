@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lo-Fi Çalışma Panom 🎧</title>
+    <!-- Bootstrap CSS (Row ve Col yapıları için gerekli) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1a1a2e; /* Koyu lo-fi arka plan rengi */
+            color: #e94560;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .pano-baslik {
+            text-align: center;
+            margin: 40px 0;
+            color: #f0a500;
+            font-weight: bold;
+        }
+        /* Kutularımızın (Card) tasarımı */
+        .ozel-kutu {
+            background-color: #162447;
+            border: 2px solid #1f4068;
+            border-radius: 15px;
+            padding: 20px;
+            color: #ffffff;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease;
+        }
+        .ozel-kutu:hover {
+            transform: translateY(-5px); /* Üzerine gelince hafif yukarı kalkma efekti */
+        }
+        .ozel-kutu h3 {
+            font-size: 1.2rem;
+            color: #e43f5a;
+            border-bottom: 2px dashed #1f4068;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container mb-5">
+        <h1 class="pano-baslik">˚ʚ♡ɞ˚Azra İçinꨄ︎</h1>
+
+        <!-- 1. SATIR (ROW): Üçlü Kartlar -->
+        <div class="row g-4 mb-4">
+            
+            <!-- 1. SÜTUN (COL): Şarkı Kutusu -->
+            <div class="col-md-4">
+                <div class="ozel-kutu">
+                    <h3>🎵 Şu An Çalıyor</h3>
+                    <p>
+                        <b>Şarkı:</b> 
+                        <a href="https://youtu.be/Q49pnA4jsp8?list=RDQ49pnA4jsp8" target="_blank" style="color: #f0a500; text-decoration: underline; cursor: pointer;">
+                            Wave to Earth - Love 🎧
+                        </a>
+                    </p>
+                    <p><i>🎧 Şarkıyı açmak için yukarıdaki yazıya tıkla!</i></p>
+                </div>
+            </div>
+
+            <!-- 2. SÜTUN (COL): Yapılacaklar Listesi -->
+            <div class="col-md-4">
+                <div class="ozel-kutu">
+                    <h3>🤍 Neden Seni Seviyorum?</h3>
+                    <ul>
+                        <li>Destekçisin🧸ྀི</li>
+                        <li>Komiksin˚˖𓍢ִ໋🦢˚</li>
+                        <li>Sevimlisin ꕤ</li>
+                        <li>Azra'sın৻ꪆ</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 3. SÜTUN (COL): Günün Notu / Mod -->
+            <div class="col-md-4">
+                <div class="ozel-kutu">
+                    <h3>✨ Günün Sözü</h3>
+                    <p>"Birinin seni tam şu an görememiş veya sevmeyi becerememiş olması, senin sevilmeye değer olmadığını göstermez. Bir çiçeğin güzelliği, bakmayı bilmeyen biri yüzünden azalamaz˚˖𓍢ִ໋❀ Hayat geçici, zevkler ve acılar da öyle."</p>
+                    <p style="font-size: 0.9rem; color: #a0a0a0;">Hava yağmurlu, ne kadar harika olduğunu düşünmek için en iyi saatler...</p>
+                </div>
+            </div>
+
+        </div> <!-- 1. SATIR BİTİŞİ -->
+
+
+        <!-- 2. SATIR (ROW): Fotoğraf ve Yanında Yazı Alanı -->
+        <div class="row g-4">
+            <div class="col-md-12">
+                <div class="ozel-kutu">
+                    <div class="row align-items-center">
+                        
+                        <!-- Sol Taraf: Fotoğraf Alanı -->
+                        <div class="col-md-5">
+                            <!-- buradaki src kısmına fotoğrafının linkini veya bilgisayardaki dosya adını yazabilirsin -->
+                            <img src="1040824163901334724.jpg" alt="Özel Fotoğraf" class="img-fluid" style="border-radius: 10px; width: 100%; height: 200px; object-fit: cover;">
+                        </div>
+
+                        <!-- Sağ Taraf: İstediğin Yazı Alanı -->
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h3 style="border-bottom: none; margin-bottom: 10px;">💌 Özel Notumuz</h3>
+                            <p style="color: #d1d5db; line-height: 1.6;">
+                                <b>Azra,</b> seninle geçirdiğimiz her an benim için çok değerli ve kıymetlli. Seninle gülmek, seninle konuşmak ve seninle vakit geçirmek bana tarifsiz bir mutluluk veriyor. Senin yanında olmak hayatın tüm zorluklarını daha kolay hale getiriyor. Seninle olduğumda kendimi tamamlanmış hissediyorum. İyi ki tanışmışız, iyi ki arkadaşımsın.💖 Küçük bir kıvılcım, koca bir okyanusu söndüremez, unutma°❀⋆.ೃ࿔
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div> <!-- 2. SATIR BİTİŞİ -->
+
+    </div> <!-- CONTAINER BİTİŞİ -->
+
+</body>
+</html>
